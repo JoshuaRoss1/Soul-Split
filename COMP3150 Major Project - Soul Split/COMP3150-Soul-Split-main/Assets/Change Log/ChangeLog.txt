@@ -1,0 +1,36 @@
+Josh 26/08/2021
+
+====================
+	Main Changes
+====================
+- Took code from Player.cs and separated it into separate scripts. I did this for ease of reading and so the code isn't all 
+  bunched up in one script.
+- New scripts that were made are:
+	o PlayerMovement.cs (Assets/Scripts/Player)
+		- Contains script for player movement -> Jumping, moving etc.
+	o SoulSpawning.cs (Assets/Scripts/Player)
+		- Contains script for spawning the different types of souls (Shifting, Still and Projected)
+- Keybinds can now be changed in the inspector of the player prefab
+	o I changed the keybind of the projected soul to the same as the still soul on the spot (Since both souls have very similar properties) --> Bound to 'E' for now
+	  but can be changed ^^
+	o Shifting souls are still spawned using 'Q'
+- Since I have grouped Still and Projection together under the same keybind now, I swapped the buffer timer to the still soul instead of the shifting soul
+
+========================================
+	Other Changes and Planned Changes
+========================================
+- Created prefabs for different types of souls so their properties can be manipulated individually (Will help later on with interactions and stuff)
+- Player movement needs to be re-tweaked
+- Soul.cs is still the same and hasn't been touched (Although I am thinking of doing the same to this script as I did for Player.cs)
+
+
+-------------------------------------------------------------------------------------------------
+Random Stuff:
+
+
+Clean up code
+-	Have another look at shifting souls
+o	Do we really need a timer for the same keybind? <- to swap to still souls?
+o	Can we have still souls and projection grouped together instead
+
+Prefab for different types of souls
