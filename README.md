@@ -3,7 +3,7 @@ University project completed in 3rd year in COMP3150 - Games Project A
 
 Link to playable prototype: https://joshross1.itch.io/soul-split
 
-** *THE BELOW OUTLINES PROJECT DEVELOPMENT FROM MY PERSPECTIVE. FEEL FREE TO IGNORE* **
+** *THE BELOW OUTLINES PROJECT DEVELOPMENT FROM MY PERSPECTIVE.* **
 
 **Description:** 
 This project was the formulation of my original idea to create a complex 2D platformer that heavily focused on gameplay programming. Soul Split takes 2D platforming and combines it with puzzles and reaction based mechanics to keep the player on their toes. The main focus for this project for me was to take a difficult concept at my level of experience and produce something playable within the 12 weeks of development time that we were given.
